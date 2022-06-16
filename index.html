@@ -1,0 +1,150 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style/grid_2_column.css">
+
+    <link rel="shortcut icon" href="images\Quantum (500 × 500 px).png" type="image/x-icon">
+    <title>QuantumDev</title>
+  
+
+  <link rel="stylesheet" href="aos\dist\aos.css">
+    <script>
+     
+        function updatemenu() {
+            if (document.getElementById('responsive-menu').checked == true) {
+                document.getElementById('menu').style.borderBottomRightRadius = '0';
+                document.getElementById('menu').style.borderBottomLeftRadius = '0';
+            } else {
+                document.getElementById('menu').style.borderRadius = '10px';
+            }
+        }
+
+    </script>
+    <script src="aos/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+          });
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu-container">
+            <!-- burger menu -->
+            <input type="checkbox" aria-label="Toggle menu" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!-- logo -->
+            <a href="#" class="menu-logo">
+                <img src="images/Quantum (500 × 500 px).png" alt="icon" />
+            </a>
+
+            <!-- menu items -->
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#home">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#pricing">
+                            Pricing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#blog">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#docs">
+                            Docs
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#signup">
+                            Sign-up
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#login">
+                            Login
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </header>
+    <section class="section group">
+        <div class="col span_1_of_2">
+            <h1 class="mainHeader">
+
+                It’s time to make your company mobile - it’s the future! Our team of experts will help
+                you build a mobile app that will be a hit with your customers.
+            </h1>
+            <p class="paragraph1"> Mobile apps are becoming more and more popular as the world becomes more
+                connected.</p>
+            <div class="button-row">
+                <div class="button1">
+                    <button class="btn">Explore</button>
+                </div>
+                <div class="space"></div>
+                <div class="button2">
+                    <button class="btn1">Create</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="col span_2_of_2 column2">
+            <img src="images/illustration_3.png" alt="image" height="500" width="500">
+        </div>
+    </section>
+
+    <div class="section group">
+        <div data-aos="fade-in" class="col span_1_of_2" >
+            <h4 class="grid_header">Well Defined Costs</h4>
+            <p class="grid_description">
+                You don’t want to find hidden costs everywhere. At QuantumDev, everything about your software project is
+                intricately discussed and planned before commencing app development. It is impossible for you to
+                encounter cost escalations or hidden costs without requirements change.
+            </p>
+        </div>
+        <div class="col span_1_of_2 column2">
+            <h4 class="grid_header">Engineering Focused</h4>
+            <p class="grid_description">You want a seriously strong engineering team, not cheap labor. Our software developers are one of the
+                best. From developing highly complex software applications manipulating real time data to building
+                beautiful apps with impressive UIs, we’ve done it all!</p>
+        </div>
+        <div class="col span_1_of_2">
+            <h4 class="grid_header">Expert Guidance</h4>
+            <p class="grid_description">You want a partner who guides you properly through each phase of software development. Our clients rely
+                on our judgment as the most relevant insight when taking critical technical decisions. Sure, we build
+                software like no one else. We’re the same at building partnerships too.</p>
+        </div>
+        <div class="col span_1_of_2">
+            <h4 class="grid_header">Quality Coding</h4>
+            <p class="grid_description">
+                You want a well designed, well coded software. At QuantumDev, we lay immense focus on maintaining
+                impeccable quality in all our software projects, big or small. This ensures that our applications are
+                easy to maintain, extend and modify based on future needs.
+            </p>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
